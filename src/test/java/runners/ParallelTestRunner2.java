@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/Pcucumber2.json",
                 "junit:target/xml-report/Pcucumber2.xml"},
         features = "src/test/resources/features",
-        glue = "stepdefinitions",
+        glue = "stepDefinitions",
         tags = "@paralel2",
         dryRun = false
 )
