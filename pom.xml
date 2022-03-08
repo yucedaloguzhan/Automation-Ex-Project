@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.1.2</version>
+            <version>4.1.1</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -44,7 +44,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <skipTests>false</skipTests>
                     <includes>
-                        <include>**/runners/*TestRunner*.java</include>
+                        <include>**/runners/*RunnerX*.java</include>
                     </includes>
                 </configuration>
             </plugin>
