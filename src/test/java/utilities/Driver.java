@@ -12,8 +12,6 @@ import java.time.Duration;
 
 public class Driver {
 
-    // Driver classs'i sayesinde bizim eski driver died
-    // Artik driver'a ihtiyac varsa Driver.getDriver() yazacagiz
 
     private Driver(){
 

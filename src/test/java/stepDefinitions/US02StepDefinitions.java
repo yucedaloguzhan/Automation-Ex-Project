@@ -25,12 +25,14 @@ public class US02StepDefinitions {
         Driver.getDriver();
 
     }
+
     @Then("Navigate to url automation")
     public void navigate_to_url_automation() {
 
         Driver.getDriver().get(ConfigReader.getProperty("AutoExcsUrl"));
 
     }
+
     @Then("Verify that home page is visible successfully")
     public void verify_that_home_page_is_visible_successfully() {
 
@@ -45,14 +47,17 @@ public class US02StepDefinitions {
     }
     @When("Verify New User Signup! is visible")
     public void verify_new_user_signup_is_visible() {
+
         Assert.assertTrue(qa.newUserSignUpTextElement.isDisplayed());
     }
+
     @When("Enter name and already registered email address")
     public void enter_name_and_already_registered_email_address() {
         qa1.newUserNameBoxElement.sendKeys(Faker.instance().name().firstName());
         qa1.newEmailBoxElement.sendKeys(ConfigReader.getProperty("emailEmrah"));
 
     }
+
     @When("Click Signup button")
     public void click_signup_button() {
         qa1.newUserSignUpButtonElement.click();
@@ -69,10 +74,13 @@ public class US02StepDefinitions {
         qa1.contactUsButtonElement.click();
 
     }
+
     @When("Verify GET IN TOUCH is visible")
     public void verify_get_in_touch_is_visible() {
+
         Assert.assertTrue(qa.getInTouchTextElement.isDisplayed());
     }
+
     @When("Enter name, email, subject and message")
     public void enter_name_email_subject_and_message() {
         Actions actions = new Actions(Driver.getDriver());
