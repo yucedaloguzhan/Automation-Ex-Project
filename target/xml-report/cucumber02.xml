@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="45.912">
+    <testcase classname="US02 Kayıt ve Dogrulama Islemleri Testi" name="TC05 Register user with existing email" time="12.892">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+Then Navigate to url automation.............................................passed
+And Verify that home page is visible successfully...........................passed
+When Click on Signup Login button...........................................passed
+And Verify New User Signup! is visible......................................passed
+And Enter name and already registered email address.........................passed
+And Click Signup button.....................................................passed
+And Verify error Email Address already exist! is visible....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US02 Kayıt ve Dogrulama Islemleri Testi" name="TC06 Contact Us Form" time="12.205">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+Then Navigate to url automation.............................................passed
+And Verify that home page is visible successfully...........................passed
+When Click on Contact Us button.............................................passed
+And Verify GET IN TOUCH is visible..........................................passed
+And Enter name, email, subject and message..................................passed
+And Upload file.............................................................passed
+And Click Submit button.....................................................passed
+And Click OK button.........................................................passed
+And Verify success message Success! Your details have been submitted successfully. is visible.passed
+And Click Home button and verify that landed to home page successfully......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US02 Kayıt ve Dogrulama Islemleri Testi" name="TC07 Verify Test Cases Page" time="9.157">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+Then Navigate to url automation.............................................passed
+And Verify that home page is visible successfully...........................passed
+When Click on Test Cases button.............................................passed
+And Verify user is navigated to test cases page successfully................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US02 Kayıt ve Dogrulama Islemleri Testi" name="TC08 Verify All Products and product detail page" time="11.148">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+Then Navigate to url automation.............................................passed
+And Verify that home page is visible successfully...........................passed
+When Click on Products button...............................................passed
+And Verify user is navigated to ALL PRODUCTS page successfully..............passed
+And The products list is visible............................................passed
+And Click on View Product of first product..................................passed
+And User is landed to product detail page...................................passed
+And Verify that detail detail is visible: product name, category, price, availability, condition, brand.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
