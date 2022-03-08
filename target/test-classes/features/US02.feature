@@ -1,12 +1,11 @@
 @emrah
-Feature: US02 Kayıt ve Dogrulama ISlemleri Testi
+Feature: US02 Kayıt ve Dogrulama Islemleri Testi
 
   Background:Tekrar methodları
 
     Given Launch browser
     Then Navigate to url automation
     And Verify that home page is visible successfully
-
 
   Scenario: TC05 Register user with existing email
 

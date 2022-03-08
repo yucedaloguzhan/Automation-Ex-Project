@@ -6,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.HomePage;
@@ -83,13 +84,16 @@ public class US02StepDefinitions {
                 sendKeys(ConfigReader.getProperty("subject")).
                 sendKeys(Keys.TAB).
                 sendKeys(ConfigReader.getProperty("message")).
+                sendKeys(Keys.TAB).
+                sendKeys("C:\\Users\\derdi\\OneDrive\\Masaüstü\\Selenium.png").
                 perform();
 
     }
     @When("Upload file")
     public void upload_file() {
-
-        qa.uploadFileElement.sendKeys("C:\\Users\\derdi\\OneDrive\\Masaüstü\\Selenium.png");
+        //JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+        //jse.executeScript("arguments[0].scrollIntoView(true)", qa.uploadFileElement);
+        //qa.uploadFileElement.sendKeys("C:\\Users\\derdi\\OneDrive\\Masaüstü\\Selenium.png");
     }
     @When("Click Submit button")
     public void click_submit_button() {

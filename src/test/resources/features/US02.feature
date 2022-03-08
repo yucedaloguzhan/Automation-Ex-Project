@@ -1,3 +1,4 @@
+@emrah
 Feature: US02 Kayıt ve Dogrulama Islemleri Testi
 
   Background:Tekrar methodları
