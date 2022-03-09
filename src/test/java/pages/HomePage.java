@@ -35,7 +35,7 @@ public class HomePage {
     public WebElement accountPasswordBoxElement;
 
     @FindBy(xpath = "//input[@placeholder='Name']")
-    public WebElement newUserSignUpBoxElement;
+    public WebElement newUserNameBoxElement;
 
     @FindBy(xpath = "//input[@data-qa='signup-email']")
     public WebElement newEmailBoxElement;
@@ -45,6 +45,11 @@ public class HomePage {
 
     @FindBy(xpath = "//button[normalize-space()='Signup']")
     public WebElement newUserSignUpButtonElement;
+
+    @FindBy(xpath = "//a[@href='/test_cases']")
+    public WebElement testCasesButtonElement;
+
+
 
 
 
