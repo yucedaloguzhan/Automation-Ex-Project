@@ -12,7 +12,11 @@ public class ConfigReader {
 
     static {
 
+
+
+
         String path="configuration.properties";
+
 
         try {
 
@@ -21,13 +25,12 @@ public class ConfigReader {
             properties.load(fis);
             fis.close();
 
+        }  catch (FileNotFoundException e) {
+            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
-
 
     public static String getProperty(String key){
 
