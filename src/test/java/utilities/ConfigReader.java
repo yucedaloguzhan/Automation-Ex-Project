@@ -12,7 +12,7 @@ public class ConfigReader {
 
     static {
 
-        String path="src/configuration.properties";
+        String path="C:\\Users\\ZUHAL\\IdeaProjects\\Automation-Ex-Project\\configuration.properties";
 
         try {
 

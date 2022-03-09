@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.474">
+    <testcase classname="US04   Ordering processes" name="TC13 Verify Product quantity in Cart" time="0.095">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given kullanici  "<string>" sayfasina giris yapar...........................undefined
+And Kullanici 'view product' tiklar.........................................skipped
+Then İncrease quatity to "<sayi>" yapilir...................................skipped
+And 'Add to cart ' tiklanir.................................................skipped
+And 'View cart'   tiklanir..................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
